@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Component from "./basics/Component";
+import Class from "./basics/class";
+import Interface from "./basics/interface";
+import Advanced from "./basics/advanced";
+import Generics from "./basics/generics";
+import Decorators from "./basics/decorators";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Component />
+      <Class />
+      <Interface />
+      <Advanced />
+      <Generics />
+      <Decorators />
     </div>
   );
 }
